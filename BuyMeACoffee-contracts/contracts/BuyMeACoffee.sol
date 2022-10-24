@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: UNLICENSED
 pragma solidity 0.8.9;
 
-contract BuyMeACoffee {
+contract buyMeACoffee {
     event NewMemo(
         address indexed from,
         uint256 timestamp,
