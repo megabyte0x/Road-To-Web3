@@ -4,7 +4,7 @@ const hre = require("hardhat");
 
 async function main() {
   // We get the contract to deploy.
-  const BuyMeACoffee = await hre.ethers.getContractFactory("BuyMeACoffee");
+  const BuyMeACoffee = await hre.ethers.getContractFactory("buyMeACoffee");
   const buyMeACoffee = await BuyMeACoffee.deploy();
 
   await buyMeACoffee.deployed();
